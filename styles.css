@@ -1,0 +1,143 @@
+/* Body and Background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: teal;
+    color: coral;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: coral;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: coral;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Background Images for Dashboard Buttons */
+nav ul li a[data-filter="short"] {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpiI_uI4txk68l4Hn0MTL4N5xgNl7eUcrfVh9h60IOGytm89-9PVeKvuU&s');
+}
+
+nav ul li a[data-filter="long"] {
+    background-image: url('https://blackwoodcreative.com/wp-content/uploads/2019/08/Long-form-videos-01-1024x640.jpg');
+}
+
+nav ul li a[data-filter="gaming"] {
+    background-image: url('https://www.livelaw.in/h-upload/2023/11/15/504019-video-game.jpg');
+}
+
+nav ul li a[data-filter="football"] {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxZoXjtBBKDDQEGgwAcr8UnVfz061NK6Seoo1j2zor_KNyhPjJAbUvyecPdTYo7pZUaI4&usqp=CAU');
+}
+
+nav ul li a[data-filter="ecommerce"] {
+    background-image: url('https://www.vocso.com/blog/wp-content/uploads/2022/02/eCommerce-Website-Features-1920-x-1080.jpg');
+}
+
+nav ul li a[data-filter="documentary"] {
+    background-image: url('https://img.freepik.com/premium-photo/documentary-filmmaking-th-century-ar-generative-ai_1169665-108332.jpg');
+}
+
+nav ul li a[data-filter="colorgrading"] {
+    background-image: url('https://jkost.com/blog/wp-content/uploads/2021/10/ColorGrading-800x267.jpg');
+}
+
+nav ul li a[data-filter="anime"] {
+    background-image: url('https://thumbs.dreamstime.com/z/young-anime-couple-lovers-fashionable-style-stands-under-spring-tree-looking-to-each-others-lovely-face-sunset-303686314.jpg');
+}
+
+nav ul li a[data-filter="ads"] {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/8039/8039389.png');
+}
+
+nav ul li a:hover {
+    transform: translateY(-5px);
+    background-color: coral;
+    color: teal;
+    box-shadow: 0 6px 12px rgba(255, 127, 80, 0.4);
+}
+
+/* Video container */
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Video Card Styling */
+.video-card {
+    margin: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.video-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Larger Videos with Rounded Corners */
+video {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    color: coral;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: teal;
+    color: coral;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+}
